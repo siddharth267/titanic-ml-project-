@@ -1,0 +1,38 @@
+artifact_path: /home/dev/titanic-ml-project/mlartifacts/1/models/m-ea06f87858f044d78fc7c98b49fb1606/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+is_signature_from_type_hint: false
+mlflow_version: 3.2.0
+model_id: m-ea06f87858f044d78fc7c98b49fb1606
+model_size_bytes: 1230124
+model_uuid: m-ea06f87858f044d78fc7c98b49fb1606
+prompts: null
+run_id: b8b32cc4a38141ad9b52ac271dc46760
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Pclass", "required": true}, {"type": "long",
+    "name": "Sex", "required": true}, {"type": "double", "name": "Age", "required":
+    true}, {"type": "long", "name": "SibSp", "required": true}, {"type": "long", "name":
+    "Parch", "required": true}, {"type": "double", "name": "Fare", "required": true},
+    {"type": "boolean", "name": "Embarked_Q", "required": true}, {"type": "boolean",
+    "name": "Embarked_S", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-08-06 09:58:19.009810'

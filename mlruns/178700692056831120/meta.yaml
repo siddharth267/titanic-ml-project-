@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/178700692056831120
+creation_time: 1754462831584
+experiment_id: '178700692056831120'
+last_update_time: 1754462831584
+lifecycle_stage: active
+name: Titanic_RF_Experiment
